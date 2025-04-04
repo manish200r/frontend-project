@@ -1,0 +1,72 @@
+body {
+  background-color: #08101b;
+  font-family: sans-serif;
+}
+
+.preview-card {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background-color: #15273f;
+  height: 550px;
+  width: 100%;
+  max-width: 305px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+h3 {
+  color: white;
+}
+p {
+  color: hsl(215, 51%, 70%);
+}
+.num {
+  margin-right: 6em;
+  color: hsl(178, 100%, 50%);
+}
+.time {
+  color: hsl(215, 51%, 70%);
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.153);
+  border-radius: 5px;
+  margin-top: 2rem;
+  max-width: 300px;
+  width: 100%;
+}
+.image-avatar {
+  border: 3px solid #ffffff;
+  width: 40px;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+.last-part {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  margin-top: 1rem;
+  width: 12rem;
+}
+.preview-card
+  img[src="/nft-preview-card-component-main/images/icon-ethereum.svg"] {
+  width: 0.8rem;
+}
+.preview-card
+  img[src="/nft-preview-card-component-main/images/icon-clock.svg"] {
+  width: 1rem;
+}
+.foot-part {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+}
+hilight {
+  color: #fff;
+}
